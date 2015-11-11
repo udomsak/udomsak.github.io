@@ -1,0 +1,220 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>udomsak.github.io</title>
+
+    <!-- Page styles -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../material.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div>
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/">Self</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="resume/index.html">Resume</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="devops/index.html">Devops</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Data Engineer</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Mobile Dev</a>
+            </nav>
+          </div>
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Basic</a>
+          <a class="mdl-navigation__link" href="">Tablets</a>
+          <a class="mdl-navigation__link" href="">Wear</a>
+          <a class="mdl-navigation__link" href="">TV</a>
+          <a class="mdl-navigation__link" href="">Auto</a>
+          <a class="mdl-navigation__link" href="">One</a>
+          <a class="mdl-navigation__link" href="">Play</a>
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Versions</span>
+          <a class="mdl-navigation__link" href="">Lollipop 5.0</a>
+          <a class="mdl-navigation__link" href="">KitKat 4.4</a>
+          <a class="mdl-navigation__link" href="">Jelly Bean 4.3</a>
+          <a class="mdl-navigation__link" href="">Android history</a>
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Resources</span>
+          <a class="mdl-navigation__link" href="">Official blog</a>
+          <a class="mdl-navigation__link" href="">Android on Google+</a>
+          <a class="mdl-navigation__link" href="">Android on Twitter</a>
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">For developers</span>
+          <a class="mdl-navigation__link" href="">App developer resources</a>
+          <a class="mdl-navigation__link" href="">Android Open Source Project</a>
+          <a class="mdl-navigation__link" href="">Android SDK</a>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">be together.</div>
+          <div class="logo-font android-sub-slogan">Udomsak It's me.</div>
+          <div class="logo-font android-create-character">
+          </div>
+
+          <a href="#screens">
+            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+              <i class="material-icons">expand_more</i>
+            </button>
+          </a>
+        </div>
+
+
+          <div class="android-more-section">
+            <div class="android-section-title mdl-typography--display-1-color-contrast">About me.</div>
+            <div class="android-card-container mdl-grid">
+              <div class="mdl-cell mdl-card mdl-cell--4-col">
+                <div class="mdl-card__media">
+                  <img src="../images/me.jpg">
+                </div>
+              </div>
+           <div class="mdl-cell mdl-cell--8-col">
+              <p class="mdl-typography--font-light mdl-typography--subhead">
+               My name Udomsak Chundang non degree guy so have an experience about Computer 11year. with in different of computer domain.
+              This include.
+              <li class="mdl-typography--font-light mdl-typography--subhead">Computer Support.</li>
+              <li class="mdl-typography--font-light mdl-typography--subhead">Computer Infrastructure. </li>
+              <li class="mdl-typography--font-light mdl-typography--subhead">Computer Programming.</li>
+              <li class="mdl-typography--font-light mdl-typography--subhead">Computer Security.</li>
+              <li class="mdl-typography--font-light mdl-typography--subhead">Cloud computing.</li>
+              <li class="mdl-typography--font-light mdl-typography--subhead">Automate Infrastructure.</li>
+              <li class="mdl-typography--font-light mdl-typography--subhead">BigData.</li>
+              <li class="mdl-typography--font-light mdl-typography--subhead">Micorcontroller and IoT.</li>
+
+             <br>
+             <p class="mdl-typography--font-light mdl-typography--subhead">
+               <h5>Cloud computing</h5>
+               <li class="mdl-typography--font-light mdl-typography--subhead">Amazon AWS.</li>
+               <p class="mdl-typography--font-light mdl-typography--subhead">
+               Have experience with Amazon RDS ( MySQL), Amazon Elastic Beanstalk (PaaS),  Amazon Elastic Cache (ECS ), Amazon Elastic Block (ESB)
+               Amazon EC2 and majority service of Amazon AWS.
+               <li class="mdl-typography--font-light mdl-typography--subhead">Digital Ocean.</li>
+               <li class="mdl-typography--font-light mdl-typography--subhead">OpenStack, OpenStack, Apache Cloudstack, OpenNebula and Other Opensource</li>
+               <p class="mdl-typography--font-light mdl-typography--subhead">
+               Knowing about their I use in my <b> personal labs </b>not deployment on production just what is and how to install, component are.
+
+            </p>
+            <p class="mdl-typography--font-light mdl-typography--subhead">
+              Author <a href="https://www.facebook.com/groups/328337430522556/">Thai Cloud Interest and Usage groups</a> This group passion from last 3
+              years after i try to learn about Cloud computing and Platforms it's harder to find Thai guys who usage and knowleadge then i create this group intend to sharing
+              and talking infomation about Cloud computing in Thai.  <i> Even if mind intend to share and talk about Cloud Platforms tip and technique but not grow as i expect, clients
+              in group just sharing about market advertising, Slide information and news feed that look interst instead. Still hope group can as i want. :-) </a>
+              <br>
+              <p class="mdl-typography--font-light mdl-typography--subhead">
+                Author <a href="https://www.facebook.com/groups/241971925824726/">Opensource In Mind</a> This group intend to sharing information about
+                Opensource Software that i'm found and think it awesome and interest so i will post on this.
+                <br>
+            <p class="mdl-typography--font-light mdl-typography--subhead">
+              Feel free to contact me to request my latest resume at <b> udomsak.chundang@gmail.com</b>
+            <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="mailto:udomsak.chundang@gmail.com">
+              email
+              <i class="material-icons">chevron_right</i>
+            </a>
+
+          </p>
+        </div>
+      </div>
+
+
+
+        <footer class="android-footer mdl-mega-footer">
+          <div class="mdl-mega-footer--top-section">
+            <div class="mdl-mega-footer--left-section">
+            </div>
+            <div class="mdl-mega-footer--right-section">
+              <a class="mdl-typography--font-light" href="#top">
+                Back to Top
+                <i class="material-icons">expand_less</i>
+              </a>
+            </div>
+          </div>
+
+          <div class="mdl-mega-footer--middle-section">
+            <p class="mdl-typography--font-light">Inspire from Cover letter request for position at http://www.hotelquickly.com/ start dev. @ 11-11-2015:02.27am. </p>
+            <p class="mdl-typography--font-light">This site got template from http://www.getmdl.io/. getmdl.io is Google Meterial Lite template  </p>
+
+          </div>
+
+          <div class="mdl-mega-footer--bottom-section">
+
+          </div>
+
+        </footer>
+      </div>
+    </div>
+    <a href="https://github.com/google/material-design-lite/blob/master/templates/android-dot-com/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
+    <script src="../../material.min.js"></script>
+
+
+  </body>
+</html>
