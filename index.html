@@ -1,365 +1,39 @@
 <!doctype html>
-<!--
-  Material Design Lite
-  Copyright 2015 Google Inc. All rights reserved.
+<html class="no-js" lang="">
 
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
+<head>
+  <meta charset="utf-8">
+  <title>Comming soon.</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+</head>
 
-      https://www.apache.org/licenses/LICENSE-2.0
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.13.1/core.min.js"></script>
 
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
-
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>udomsak.github.io</title>
-
-    <!-- Page styles -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="material.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-    #view-source {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 40px;
-      margin-bottom: 40px;
-      z-index: 900;
-    }
-    </style>
-  </head>
-  <body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-
-      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
-        <div class="mdl-layout__header-row">
-          <span class="android-title mdl-layout-title">
-          </span>
-          <!-- Add spacer, to align navigation to the right in desktop -->
-          <div class="android-header-spacer mdl-layout-spacer"></div>
-          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
-            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
-              <i class="material-icons">search</i>
-            </label>
-            <div class="mdl-textfield__expandable-holder">
-              <input class="mdl-textfield__input" type="text" id="search-field">
-            </div>
-          </div>
-          <!-- Navigation -->
-          <div class="android-navigation-container">
-            <nav class="android-navigation mdl-navigation">
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="http://udomsak.github.io/">Self</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="http://udomsak.github.io/resume/index.html">Resume</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="http://udomsak.github.io/devops/index.html">Devops</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="http://udomsak.github.io/mobile-dev/index.html">Mobile Dev</a>
-            </nav>
-          </div>
-          <span class="android-mobile-title mdl-layout-title">
-            <img class="android-logo-image" src="images/android-logo.png">
-          </span>
-          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
-            <i class="material-icons">more_vert</i>
-          </button>
-          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
-            <li class="mdl-menu__item">5.0 Lollipop</li>
-            <li class="mdl-menu__item">4.4 KitKat</li>
-            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
-            <li class="mdl-menu__item">Android History</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="android-drawer mdl-layout__drawer">
-        <span class="mdl-layout-title">
-          <img class="android-logo-image" src="images/android-logo-white.png">
-        </span>
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">Basic</a>
-          <a class="mdl-navigation__link" href="">Tablets</a>
-          <a class="mdl-navigation__link" href="">Wear</a>
-          <a class="mdl-navigation__link" href="">TV</a>
-          <a class="mdl-navigation__link" href="">Auto</a>
-          <a class="mdl-navigation__link" href="">One</a>
-          <a class="mdl-navigation__link" href="">Play</a>
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Versions</span>
-          <a class="mdl-navigation__link" href="">Lollipop 5.0</a>
-          <a class="mdl-navigation__link" href="">KitKat 4.4</a>
-          <a class="mdl-navigation__link" href="">Jelly Bean 4.3</a>
-          <a class="mdl-navigation__link" href="">Android history</a>
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Resources</span>
-          <a class="mdl-navigation__link" href="">Official blog</a>
-          <a class="mdl-navigation__link" href="">Android on Google+</a>
-          <a class="mdl-navigation__link" href="">Android on Twitter</a>
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">For developers</span>
-          <a class="mdl-navigation__link" href="">App developer resources</a>
-          <a class="mdl-navigation__link" href="">Android Open Source Project</a>
-          <a class="mdl-navigation__link" href="">Android SDK</a>
-        </nav>
-      </div>
-
-      <div class="android-content mdl-layout__content">
-        <a name="top"></a>
-        <div class="android-be-together-section mdl-typography--text-center">
-          <div class="logo-font android-slogan">be together.</div>
-          <div class="logo-font android-sub-slogan">Udomsak It's me.</div>
-          <div class="logo-font android-create-character">
-          </div>
-
-          <a href="#screens">
-            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-              <i class="material-icons">expand_more</i>
-            </button>
-          </a>
-        </div>
-
-
-          <div class="android-more-section">
-            <div class="android-section-title mdl-typography--display-1-color-contrast">About me.</div>
-            <div class="android-card-container mdl-grid">
-              <div class="mdl-cell mdl-card mdl-cell--4-col">
-                <div class="mdl-card__media">
-                  <img src="images/me.jpg">
-                </div>
-              </div>
-           <div class="mdl-cell mdl-cell--8-col">
-              <p class="mdl-typography--font-light mdl-typography--subhead">
-               My name Udomsak Chundang non degree guy so have an experience about Computer 11year. with in different of computer domain.
-              This include.
-              <li class="mdl-typography--font-light mdl-typography--subhead">Computer Support.</li>
-              <li class="mdl-typography--font-light mdl-typography--subhead">Computer Infrastructure. </li>
-              <li class="mdl-typography--font-light mdl-typography--subhead">Computer Programming.</li>
-              <li class="mdl-typography--font-light mdl-typography--subhead">Computer Security.</li>
-              <li class="mdl-typography--font-light mdl-typography--subhead">Cloud computing.</li>
-              <li class="mdl-typography--font-light mdl-typography--subhead">Automate Infrastructure.</li>
-              <li class="mdl-typography--font-light mdl-typography--subhead">BigData.</li>
-              <li class="mdl-typography--font-light mdl-typography--subhead">Micorcontroller and IoT.</li>
-             <br>
-             <p class="mdl-typography--font-light mdl-typography--subhead">
-
-              My live is street guy then start learning about computer when i'm 25 year old. ( if i not wrong rememeber). Then after that i start work
-              at SoftwarePark Thailand with support  with 4guy who interview and give great chance to me.
-            </p>
-            <p class="mdl-typography--font-light mdl-typography--subhead">
-             My love and passion about Computers because "Computer has alway movement with amazing also what they can do, how they can work".
-             That match with my habit love to learn, push my self alway challenge my self limitation.
-            </p>
-            <p class="mdl-typography--font-light mdl-typography--subhead">
-            You can look my personal blog most about my interest and short tutorial vary about computer that i wrote when rest. Unfortunately ths blog
-            most in Thai language blog.
-            <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="http://udomsak.blogspot.com">
-              My personal blog
-              <i class="material-icons">chevron_right</i>
-            </a>
-
-          </p>
-        </div>
-      </div>
-
-
-<div class="android-more-section">
-        <div class="android-section-title mdl-typography--display-1-color-contrast">My life.</div>
-        <div class="android-card-container mdl-grid">
-          <div class="mdl-cell mdl-card mdl-cell--4-col">
-            <div class="mdl-card__media">
-              <img src="images/me-2.jpg">
-            </div>
-          </div>
-       <div class="mdl-cell mdl-cell--8-col">
-          <p class="mdl-typography--font-light mdl-typography--subhead">
-           Present, I live my father and my small Cats and dog at Ladgrabang district, Bangkok. Sometime back to my hometown at Lhumphun where
-           Northern of Thailand ( Small province near Chaingmai).
-         <br>
-         <p class="mdl-typography--font-light mdl-typography--subhead">
-          When have time i out going to the jungle and look place that peace to meditate such as cave, temple. Because i love and interest with meditation and
-          spiritual development.
-        </p>
-        <p class="mdl-typography--font-light mdl-typography--subhead">
-         My goal life, Of course my live was had a lot of misstake and wrong live direction. So i'm want to develop my hometown ( Lumphun ) with my knowleadges
-         intend to social responsibility that will make people have a better life. ( not all but will make as well as i can do ) such as Smart-Farm in lowest cost with
-         Internet Of Thing (IoT) etc.
-       </p>
-       <p class="mdl-typography--font-light mdl-typography--subhead mdl-card__title-text">
-         "Life is short than you can imagine. Live with fun and respect , do better for you self and help people. too."
-       </p>
+<section class="hero is-link is-fullheight">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        New site Coming soon.
+        September 2020
+      </h1>
+      <h2 class="subtitle">
+        udomsak.chundang@gmail.com / DevOps, System engineer.
+      </h2>
+      <div class="terminal"></div>
     </div>
   </div>
-</div>
+</section>
+
+<script type="text/javascript">
+  const instance = new Typewriter('#terminal', {
+    strings: ['Hello', 'World'],
+    autoStart: true,
+    loop: true,
+  });
+</script>
 
 
-<div class="android-more-section">
-        <div class="android-section-title mdl-typography--display-1-color-contrast">My Hobby.</div>
-        <div class="android-card-container mdl-grid">
-          <div class="mdl-cell mdl-card mdl-cell--4-col">
-            <div class="mdl-card__media">
-              <img src="images/me-3.jpg">
-            </div>
-          </div>
-       <div class="mdl-cell mdl-cell--8-col">
-          <p class="mdl-typography--font-light mdl-typography--subhead">
-           Alright look like my life look seriously, Do you happy ? Yep , i'm can balance it, live it like other guy :) . My hobby is traveling with my Motorcycle
-           my top record is 1,000Km. with 12hour on motorbike in one day. also below.
+</body>
 
-           <li class="mdl-typography--font-light mdl-typography--subhead">Pool and Sanooker.</li>
-           <li class="mdl-typography--font-light mdl-typography--subhead">Eat Sushi,Pizza and Pork burger. </li>
-           <li class="mdl-typography--font-light mdl-typography--subhead">Football ( Not profressional just run following a ball LoL  ) </li>
-         </p>
-         <p class="mdl-typography--font-light mdl-typography--subhead">
-           Thing i want taste it for fun is.
-           <li class="mdl-typography--font-light mdl-typography--subhead">Bunji Jump.</li>
-           <li class="mdl-typography--font-light mdl-typography--subhead">BB-gun.</li>
-           <li class="mdl-typography--font-light mdl-typography--subhead">Extreme sport.</li>
-         </p>
-         <p class="mdl-typography--font-light mdl-typography--subhead">
-           Thing i want todo again and i will do if i can.
-        </p>
-           <li class="mdl-typography--font-light mdl-typography--subhead"><b>Racer</b>.</li>
-           <p class="mdl-typography--font-light mdl-typography--subhead">
-           Cause i ever to candidate a Bike racer but i crash in circuit the Bike that i ride also crash can't repair, i'm fire. Unfortunately i lose my bike too.
-           Today just have small bike that Endoro style ( Kawasaki KLX125 cc. ) Just work and ride it on the mountain.
-         </p>
-    </div>
-  </div>
-</div>
-
-
-<div class="android-more-section">
-        <div class="android-section-title mdl-typography--display-1-color-contrast">My Social.</div>
-        <div class="android-card-container mdl-grid">
-          <div class="mdl-cell mdl-card mdl-cell--4-col">
-            <div class="mdl-card__media">
-              <img src="images/social.jpg">
-            </div>
-          </div>
-       <div class="mdl-cell mdl-cell--8-col">
-          <p class="mdl-typography--font-light mdl-typography--subhead">
-           <li class="mdl-typography--font-light mdl-typography--subhead"><a href="https://www.facebook.com/udomsak.chundang">Facebook.</a></li>
-           <li class="mdl-typography--font-light mdl-typography--subhead"><a href="https://twitter.com/udomsak">Twitter @udomsak</a></li>
-           <li class="mdl-typography--font-light mdl-typography--subhead"><a href="https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US">LinkedIn</a> </li>
-           <li class="mdl-typography--font-light mdl-typography--subhead"><a href="http://udomsak.blotspot.com">Blogspot</a> </li>
-           <li class="mdl-typography--font-light mdl-typography--subhead"><a href="https://instagram.com/udomsakpp/ ">Instagram @udomsakpp</a> </li>
-
-         </p>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-        <div class="android-customized-section-image"></div>
-        </div>
-        <div class="android-more-section">
-          <div class="android-section-title mdl-typography--display-1-color-contrast">Travel gallery</div>
-          <div class="android-card-container mdl-grid">
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="images/bike-card2.jpg">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Ride by own.</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">This trip ride by my own to border area, ChiangDao province ( near Mynma )</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/photo.php?fbid=541329245884098&set=a.541328669217489.138940.100000210812249&type=3&theater">
-                   Look more.
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
-            </div>
-
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="images/bike-card.jpg">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Fun with Endoro on Moutain.</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Turn my KLX125cc. on the moutain. no road to ride  just find the way to Go. Test slide
-                techinic on dust have Fun.!!</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/udomsak.chundang/media_set?set=a.1070983652918652.1073741833.100000210812249&type=3">
-                   gallery
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
-            </div>
-
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="images/bike-race1.jpg">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Candidate lose.</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Bike crash when challenge Racer candidate at "Thailand circuit".
-                this situation occur when i accelrate over then rear wheel ( Old Slic tyre) slip at T3 corner. Big crash...  </span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="http://udomsak.blogspot.com/2013/05/blog-post_13.html">
-                   Story ( Thai. language).
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-
-        <footer class="android-footer mdl-mega-footer">
-          <div class="mdl-mega-footer--top-section">
-            <div class="mdl-mega-footer--left-section">
-            </div>
-            <div class="mdl-mega-footer--right-section">
-              <a class="mdl-typography--font-light" href="#top">
-                Back to Top
-                <i class="material-icons">expand_less</i>
-              </a>
-            </div>
-          </div>
-
-          <div class="mdl-mega-footer--middle-section">
-            <p class="mdl-typography--font-light">Inspire from Cover letter request for position at http://www.hotelquickly.com/ start dev. @ 11-11-2015:02.27am. </p>
-            <p class="mdl-typography--font-light">This site got template from http://www.getmdl.io/. getmdl.io is Google Meterial Lite template  </p>
-
-          </div>
-
-          <div class="mdl-mega-footer--bottom-section">
-
-          </div>
-
-        </footer>
-      </div>
-    </div>
-    <a href="https://github.com/google/material-design-lite/blob/master/templates/android-dot-com/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
-    <script src="../../material.min.js"></script>
-
-
-  </body>
 </html>
